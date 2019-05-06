@@ -1,5 +1,5 @@
 <?php
 session_start();
-unset($_SESSION['session_username']);
+unset($_SESSION['session_login']);
 session_destroy();
-header("location:register.php");
+header("location:login.php");
